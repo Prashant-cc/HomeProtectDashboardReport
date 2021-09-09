@@ -8,6 +8,6 @@ use Illuminate\Database\Eloquent\Model;
 class Cancellogs extends Model
 {
     use HasFactory;
-    protected $connection = 'mysql2';
-    protected $table = 'cancellationslog';
+    protected $connection = 'mysql';
+    protected $table = 'cancellationslog_hmu';
 }

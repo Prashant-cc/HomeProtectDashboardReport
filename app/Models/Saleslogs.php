@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Saleslogs extends Model
 {
     use HasFactory;
-    protected $connection = 'mysql2';
+    protected $connection = 'mysql';
     protected $table = 'saleslogs_hmu';
 
     public function SalesFind($date){

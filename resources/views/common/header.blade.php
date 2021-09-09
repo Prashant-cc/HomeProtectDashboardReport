@@ -29,7 +29,7 @@
     <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
     <meta name="author" content="ThemePixels">
 
-    <title>AutoProtect USA</title>
+    <title>HomeProtect USA</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -52,7 +52,7 @@
  <div class="slim-header">
       <div class="container">
         <div class="slim-header-left">
-          <h2 class="slim-logo"><a href="#"><img src="{{asset('images/logo.png') }}" width="" height="" alt="Site Logo"></a></h2>
+          <h2 class="slim-logo"><a href="{{Route('dashboard')}}"><img src="{{asset('images/logo.png') }}" width="" height="" alt="Site Logo"></a></h2>
 
       
         </div><!-- slim-header-left -->
